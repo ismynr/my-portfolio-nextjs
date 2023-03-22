@@ -260,8 +260,8 @@ export default function Portfolio() {
       {cardModals.map((cardModal, index) => (
         <>
           <input type="checkbox" id={"my-modal-"+(index+1)} className="modal-toggle" />
-          <label htmlFor={"my-modal-"+(index+1)} className="modal cursor-pointer">
-            <label className="modal-box w-3/4 max-w-none max-h-none" htmlFor="">
+          <label htmlhtmlFor={"my-modal-"+(index+1)} className="modal cursor-pointer">
+            <label className="modal-box w-3/4 max-w-none max-h-none" htmlhtmlFor="">
               <div className="carousel">
                 {cardModal.slide.map((slide, indexSlide) => (
                   <div id={"slide"+(index+1)+(indexSlide+1)} key={indexSlide+1} className="carousel-item w-full">
@@ -298,7 +298,7 @@ export default function Portfolio() {
                   />
                 </figure>
                 <div className="card-body bg-neutral">
-                  <label className="card-title cursor-pointer" for={"my-modal-"+(index+1)}>
+                  <label className="card-title cursor-pointer" htmlFor={"my-modal-"+(index+1)}>
                     {card.name}
                     <div className="badge badge-secondary">{card.platform}</div>
                   </label>
