@@ -260,7 +260,7 @@ export default function Portfolio() {
       {cardModals.map((cardModal, index) => (
         <>
           <input type="checkbox" id={"my-modal-"+(index+1)} className="modal-toggle" />
-          <label for={"my-modal-"+(index+1)} className="modal cursor-pointer">
+          <label htmlFor={"my-modal-"+(index+1)} className="modal cursor-pointer">
             <label className="modal-box w-3/4 max-w-none max-h-none" for="">
               <div className="carousel">
                 {cardModal.slide.map((slide, indexSlide) => (
