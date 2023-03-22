@@ -15,7 +15,7 @@ export default function ExperienceEducation() {
 
       <div className="mx-auto max-w-7xl py-6 sm:px-6 lg:px-8">
         <div className="px-4 py-6 sm:px-0">
-        <ul className="steps steps-vertical w-full">
+          <ul className="steps steps-vertical w-full">
             <li data-content="2" className="step step-primary">
               <div className="card w-full card-bordered lg:card-side bg-neutral">
                 <figure>
@@ -40,7 +40,7 @@ export default function ExperienceEducation() {
                     <div className="badge badge-outline">March 2022 - Current</div>   
                     <div className="badge badge-outline">Fulltime</div> 
                   </div>
-                  <div className="badge badge-secondary badge-lg my-2">Junior Software Engineer</div> 
+                  <div className="badge badge-accent badge-lg my-2">Junior Software Engineer</div> 
                   <span className="text-left">
                     Backend - ICUBE By SIRCLO - Maintain e-commerce based on Magento, such as: 
                     <br />
@@ -77,7 +77,7 @@ export default function ExperienceEducation() {
                     <div className="badge badge-outline">Juli 2019 - Agustus 2019</div>
                     <div className="badge badge-outline">Internship</div> 
                   </div>
-                  <div className="badge badge-secondary badge-lg my-2">Web Programmer</div> 
+                  <div className="badge badge-accent badge-lg my-2">Web Programmer</div> 
                   <span className="text-left">
                     IT internship experience
                     <br />

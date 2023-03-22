@@ -36,7 +36,7 @@ export default function Education() {
 
                   <div className="badge badge-outline">October 2017 - October 2021</div>
                   <div className="card-actions">
-                    <div className="badge badge-secondary badge-lg my-2">Informatics Engineering</div> 
+                    <div className="badge badge-accent badge-lg my-2">Informatics Engineering</div> 
                   </div>
                   <span className="text-left">
                     <ul className="list-[square] pl-5">

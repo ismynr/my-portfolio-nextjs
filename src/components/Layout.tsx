@@ -87,7 +87,7 @@ export default function Layout({ children, ...props }: Props) {
           </div>
         </div> 
         <div>
-          <p> Made with <br /> Typescript ◆ Next.js ◆ Tailwind ◆ daisyUI <br /><br /> <b>Copyright © 2023</b></p>
+          <p> Made with <br /> Typescript ◆ Next.js ◆ Tailwind ◆ DaisyUI <br /><br /> <b>Copyright © 2023</b></p>
         </div>
       </footer>
     </div>

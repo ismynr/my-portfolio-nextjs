@@ -300,7 +300,7 @@ export default function Portfolio() {
                 <div className="card-body bg-neutral">
                   <label className="card-title cursor-pointer" htmlFor={"my-modal-"+(index+1)}>
                     {card.name}
-                    <div className="badge badge-secondary">{card.platform}</div>
+                    <div className="badge badge-accent">{card.platform}</div>
                   </label>
                   <div className="card-actions justify-end">
                     {card.techs.map((element) => (
