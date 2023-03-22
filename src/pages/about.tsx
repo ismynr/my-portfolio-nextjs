@@ -24,8 +24,9 @@ export default function About() {
               <h1 className="text-6xl font-bold my-10">Ismi Nururrizqi</h1>
               <h3 className="text-2xl">Software Engineer | Backend | Tech Content Writer</h3>
               <p className="py-6">
-                1+ year of experience as Software Engineer Backend and curently I work at ICUBE By Sirclo with some tech such as PHP / Magento, XML, GraphQL, Docker, and MySQL. 
-                {/* <br />  */}
+                I am Software Engineer, I have more than 1 year of experience as Backend Software Engineer. <br />
+                I work with APIs or GraphQL, manipulate SQL Query for providing data with query optimize, customize existing system for building new features, improve performance, debuging for fixing several bugs, research and integrate with external system. <br />
+                Currently I am research and learning about best practice of software design and architecture, write efficient code, security, and explore about DevOps. <br />
               </p>
             </div>
           </div>
